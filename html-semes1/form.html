@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="fbody">
+        <ol class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="welcome.html">Welcome</a></li>
+            <li><a href="data.html">Data</a></li>
+        </ol>
+        <h2>Buat Account Baru</h2>
+        <h4>Sign Up Form</h4>
+        <form action="welcome.html">
+            <label for="nama">First name :</label><br><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            <label for="nama">Last name :</label><br><br>
+            <input type="text" id="nama2" name="nama2" required>
+            <br><br>
+
+            <label for="gender">Gender</label><br><br>
+            <input type="radio" id="male" name="gender" required>
+            <label for="gender">Male</label><br>
+            <input type="radio" id="female" name="gender">
+            <label for="gender">Female</label><br><br>
+
+            <label for="negara">Nationality</label><br><br>
+            <select id="negara" name="negara" required>
+               <option value="" disabled selected hidden>Country</option>
+               <option value="indonesia">Indonesia</option>
+               <option value="amerika">Amerika</option>  
+               <option value="inggris">Inggris</option>
+            </select><br><br>
+
+            <label for="bahasa">Language Spoken</label><br><br>
+            <input type="checkbox" id="bahasa" name="bahasa">
+            <label for="bahasa">Bahasa Indonesia</label><br>
+            <input type="checkbox" id="bahasa2" name="bahasa2">
+            <label for="bahasa">English</label><br>
+            <input type="checkbox" id="bahasa3" name="bahasa3">
+            <label for="bahasa">Other</label><br><br>
+
+            <label for="tulisan">Bio</label><br><br>
+            <textarea id="bio" name="bio" rows="15" clos="30" required></textarea>
+            <br>
+            <input type="submit" value="Sign Up">
+        
+        </form>
+    </body>
+</html>
